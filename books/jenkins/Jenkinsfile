@@ -67,6 +67,7 @@ pipeline {
 			--context-dir ${APP_NAME}
 
 			oc expose svc/${APP_NAME}
+	           '''
             }
         }
 
